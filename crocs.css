@@ -1,0 +1,180 @@
+header{
+    display: flex;
+    background-color: greenyellow;
+    height: 100px;
+}
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+}
+nav ul li a{
+    color:black;
+    padding: 10px;
+    text-decoration: none;
+    font-size: large;
+    border: 2px black;
+    background-color: aliceblue;
+    border-radius: 7%;
+}
+body header img{
+    padding: 10px;
+    margin-left: 30px;
+    
+}
+nav{
+    margin-left: 250px;
+}
+.grid{
+    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+}
+.m img{
+    border-radius: 10%;
+    margin-left: 40px;
+}
+#about{
+    text-align: center;
+    font-size: 50 px;
+    color:rgb(13, 1, 1)
+}
+body{
+    background-image: url(crocsbr.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.grid1{
+    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 25%;
+}
+.grid2{
+    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 25%;
+}
+.item5 img{
+    border-radius: 15%;
+}
+.item6 img{
+    border-radius: 15%;
+}
+.item7 img{
+    border-radius: 15%;
+}
+.item8 img{
+    border-radius: 15%;
+}
+.item1 img{
+    border-radius: 15%;
+}
+.item2 img{
+    border-radius: 15%;
+}
+.item3 img{
+    border-radius: 15%;
+}
+#menu{
+    text-align: center;
+}
+.item4 img{
+    border-radius: 15%;
+}
+#products{
+    text-align: center;
+}
+#move{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    overflow: auto auto;
+    white-space: nowrap;
+}
+#move.slide{
+    display: inline-block;
+}
+.row{
+    display: flex;
+    padding: 20px;
+}
+.form{
+    background-color: antiquewhite;
+    margin-left: 50px;
+    padding: 80px;
+    border: 2px solid rgb(33,31,31)(16,14,14)(16,14,14);
+    border-radius: 10%;
+}
+.inputbox{
+    background-color: aliceblue;
+    width: 200px;
+    height: 120px;
+    padding: 30px;
+    border: 4px slateblue;
+    border-radius: 20%;
+}
+#contact h2{
+    font-size: 3rem;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  #contact pre{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Courgette', cursive;
+  
+  }
+  footer{
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    /* margin-top: 10px; */
+    background-color: black;
+    color: white;
+    height: 150px;
+    width: 100%;
+  }
+  .line{
+    padding: 40px;
+  }
+  #review img{
+
+    height: 150px;
+    width: 500px;
+   
+    margin-left: 200px;
+ 
+ }
+ #review h2{
+   font-size: 3rem;
+   text-align: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+  
+  
+  
+  input[type=text],input[type=password]{
+    width: 100%;
+    padding: 6px 12px;
+    margin: 5px 0;
+    box-sizing: border-box;
+  }
+  button[type=submit]{
+    width: 35%;
+    padding: 8px 12px;
+    margin: 5px 0;
+    box-sizing: border-box;
+  }
+  button a{
+      text-decoration: none;
+      color: #000000;
+  }
+  form{
+    padding: 30px;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 20%;
+  }
+          
+  /* transition-duration: 2s; */
